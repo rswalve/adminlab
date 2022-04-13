@@ -4,6 +4,8 @@ replicas: 1
 image: ${artifact.metadata.image}
 dockercfg: ${artifact.source.dockerconfig}
 
+# Fart fart fart
+
 createNamespace: true
 namespace: ${infra.kubernetes.namespace}
 
